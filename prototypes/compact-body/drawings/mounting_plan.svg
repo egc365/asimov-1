@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 500 400">
+<rect width="500" height="400" fill="#fafaf6"/>
+<text x="20" y="25" font-family="sans-serif" font-size="12">DECK / mm / M3 bores diameter 3.6 / CAD prototype</text>
+<g transform="translate(220,220)">
+<circle r="170" fill="#e7e3d8" stroke="#273f36" stroke-width="1"/>
+<path d="M-180 0H180M0-180V180" stroke="#939c95" stroke-width=".5" stroke-dasharray="3 3"/>
+<circle cx="-40.0" cy="40.0" r="1.8" fill="white" stroke="#13699b" stroke-width=".7"/>
+<text x="-37.0" y="37.0" font-family="sans-serif" font-size="5" fill="#13699b">-40,-40</text>
+<circle cx="40.0" cy="40.0" r="1.8" fill="white" stroke="#13699b" stroke-width=".7"/>
+<text x="43.0" y="37.0" font-family="sans-serif" font-size="5" fill="#13699b">40,-40</text>
+<circle cx="-40.0" cy="-40.0" r="1.8" fill="white" stroke="#13699b" stroke-width=".7"/>
+<text x="-37.0" y="-43.0" font-family="sans-serif" font-size="5" fill="#13699b">-40,40</text>
+<circle cx="40.0" cy="-40.0" r="1.8" fill="white" stroke="#13699b" stroke-width=".7"/>
+<text x="43.0" y="-43.0" font-family="sans-serif" font-size="5" fill="#13699b">40,40</text>
+<circle cx="-35.0" cy="-35.0" r="1.8" fill="white" stroke="#148354" stroke-width=".7"/>
+<text x="-32.0" y="-38.0" font-family="sans-serif" font-size="5" fill="#148354">-35,35</text>
+<circle cx="35.0" cy="-35.0" r="1.8" fill="white" stroke="#148354" stroke-width=".7"/>
+<text x="38.0" y="-38.0" font-family="sans-serif" font-size="5" fill="#148354">35,35</text>
+<circle cx="-35.0" cy="-75.0" r="1.8" fill="white" stroke="#148354" stroke-width=".7"/>
+<text x="-32.0" y="-78.0" font-family="sans-serif" font-size="5" fill="#148354">-35,75</text>
+<circle cx="35.0" cy="-75.0" r="1.8" fill="white" stroke="#148354" stroke-width=".7"/>
+<text x="38.0" y="-78.0" font-family="sans-serif" font-size="5" fill="#148354">35,75</text>
+<circle cx="-140.0" cy="40.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="-137.0" y="37.0" font-family="sans-serif" font-size="5" fill="#a54926">-140,-40</text>
+<circle cx="-70.0" cy="40.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="-67.0" y="37.0" font-family="sans-serif" font-size="5" fill="#a54926">-70,-40</text>
+<circle cx="-155.0" cy="-0.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="-152.0" y="-3.0" font-family="sans-serif" font-size="5" fill="#a54926">-155,0</text>
+<circle cx="-55.0" cy="-0.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="-52.0" y="-3.0" font-family="sans-serif" font-size="5" fill="#a54926">-55,0</text>
+<circle cx="70.0" cy="40.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="73.0" y="37.0" font-family="sans-serif" font-size="5" fill="#a54926">70,-40</text>
+<circle cx="140.0" cy="40.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="143.0" y="37.0" font-family="sans-serif" font-size="5" fill="#a54926">140,-40</text>
+<circle cx="55.0" cy="-0.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="58.0" y="-3.0" font-family="sans-serif" font-size="5" fill="#a54926">55,0</text>
+<circle cx="155.0" cy="-0.0" r="1.8" fill="white" stroke="#a54926" stroke-width=".7"/>
+<text x="158.0" y="-3.0" font-family="sans-serif" font-size="5" fill="#a54926">155,0</text>
+<rect x="-14" y="-64" width="28" height="18" fill="white" stroke="#333" stroke-width=".5"/>
+<path d="M-170 178V185H170V178" fill="none" stroke="#333" stroke-width=".7"/>
+<text x="0" y="194" text-anchor="middle" font-family="sans-serif" font-size="8">diameter 340 / thickness 8</text>
+</g>
+<text x="400" y="80" font-family="sans-serif" font-size="8" fill="#13699b">Blue: source plate axes</text>
+<text x="400" y="100" font-family="sans-serif" font-size="8" fill="#148354">Green: column foot</text>
+<text x="400" y="120" font-family="sans-serif" font-size="8" fill="#a54926">Orange: new arm bores</text>
+<text x="400" y="150" font-family="sans-serif" font-size="8">+Y up page</text>
+<text x="400" y="165" font-family="sans-serif" font-size="8">Camera faces -Y</text>
+<text x="20" y="395" font-family="sans-serif" font-size="8">Use STEP, not this illustration, for machining. Coordinates are assembly-frame values.</text>
+</svg>

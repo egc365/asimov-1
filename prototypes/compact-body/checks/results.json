@@ -1,0 +1,541 @@
+[
+  {
+    "check": "reopen_native",
+    "status": "PASS",
+    "detail": {
+      "solids": 19,
+      "valid": true,
+      "volume": 1299404.7000306668,
+      "bbox": [
+        -170.0,
+        -170.0,
+        50.0,
+        170.0,
+        170.0,
+        358.0
+      ]
+    }
+  },
+  {
+    "check": "reopen_STEP",
+    "status": "PASS",
+    "detail": {
+      "solids": 19,
+      "valid": true,
+      "volume": 1299404.700030953,
+      "bbox": [
+        -170.0,
+        -170.0,
+        50.0,
+        170.0,
+        170.0,
+        358.0
+      ]
+    }
+  },
+  {
+    "check": "native_STEP_bbox",
+    "status": "PASS",
+    "detail": {
+      "max_error_mm": 0.0
+    }
+  },
+  {
+    "check": "individual_STEP_solids",
+    "status": "PASS",
+    "detail": [
+      {
+        "name": "deck",
+        "solids": 1,
+        "valid": true,
+        "volume": 720675.6198783693,
+        "bbox": [
+          -170.0,
+          -170.0,
+          70.0,
+          170.0,
+          170.0,
+          78.0
+        ]
+      },
+      {
+        "name": "standoff_1",
+        "solids": 1,
+        "valid": true,
+        "volume": 424.1150082346315,
+        "bbox": [
+          -43.0,
+          -43.0,
+          50.0,
+          -37.0,
+          -37.0,
+          70.0
+        ]
+      },
+      {
+        "name": "standoff_2",
+        "solids": 1,
+        "valid": true,
+        "volume": 424.1150082346315,
+        "bbox": [
+          37.0,
+          -43.0,
+          50.0,
+          43.0,
+          -37.0,
+          70.0
+        ]
+      },
+      {
+        "name": "standoff_3",
+        "solids": 1,
+        "valid": true,
+        "volume": 424.1150082346315,
+        "bbox": [
+          -43.0,
+          37.0,
+          50.0,
+          -37.0,
+          43.0,
+          70.0
+        ]
+      },
+      {
+        "name": "standoff_4",
+        "solids": 1,
+        "valid": true,
+        "volume": 424.1150082346315,
+        "bbox": [
+          37.0,
+          37.0,
+          50.0,
+          43.0,
+          43.0,
+          70.0
+        ]
+      },
+      {
+        "name": "column_foot",
+        "solids": 1,
+        "valid": true,
+        "volume": 45716.559347351635,
+        "bbox": [
+          -45.0,
+          20.0,
+          78.0,
+          45.0,
+          90.0,
+          86.0
+        ]
+      },
+      {
+        "name": "column",
+        "solids": 1,
+        "valid": true,
+        "volume": 81331.70975525683,
+        "bbox": [
+          -32.0,
+          35.0,
+          86.0,
+          32.0,
+          75.0,
+          278.0
+        ]
+      },
+      {
+        "name": "column_rear_cover",
+        "solids": 1,
+        "valid": true,
+        "volume": 31320.0,
+        "bbox": [
+          -29.0,
+          75.0,
+          92.0,
+          29.0,
+          78.0,
+          272.0
+        ]
+      },
+      {
+        "name": "column_lower_bridge",
+        "solids": 1,
+        "valid": true,
+        "volume": 9091.389572332626,
+        "bbox": [
+          -29.0,
+          38.0,
+          86.0,
+          29.0,
+          72.0,
+          92.0
+        ]
+      },
+      {
+        "name": "column_upper_bridge",
+        "solids": 1,
+        "valid": true,
+        "volume": 9091.389572332526,
+        "bbox": [
+          -29.0,
+          38.0,
+          272.0,
+          29.0,
+          72.0,
+          278.0
+        ]
+      },
+      {
+        "name": "head_shell",
+        "solids": 1,
+        "valid": true,
+        "volume": 126233.98942893255,
+        "bbox": [
+          -62.0,
+          3.0,
+          278.0,
+          62.0,
+          87.0,
+          358.0
+        ]
+      },
+      {
+        "name": "face_panel",
+        "solids": 1,
+        "valid": true,
+        "volume": 23558.567953239126,
+        "bbox": [
+          -58.4,
+          3.0,
+          281.6,
+          58.4,
+          6.0,
+          354.4
+        ]
+      },
+      {
+        "name": "camera_shelf",
+        "solids": 1,
+        "valid": true,
+        "volume": 5853.854877628425,
+        "bbox": [
+          -27.0,
+          7.0,
+          286.0,
+          27.0,
+          47.0,
+          289.0
+        ]
+      },
+      {
+        "name": "camera_spacer_1",
+        "solids": 1,
+        "valid": true,
+        "volume": 141.5287490442233,
+        "bbox": [
+          -18.5,
+          16.5,
+          281.0,
+          -11.5,
+          23.5,
+          286.0
+        ]
+      },
+      {
+        "name": "camera_spacer_2",
+        "solids": 1,
+        "valid": true,
+        "volume": 141.52874904422328,
+        "bbox": [
+          11.5,
+          16.5,
+          281.0,
+          18.5,
+          23.5,
+          286.0
+        ]
+      },
+      {
+        "name": "camera_spacer_3",
+        "solids": 1,
+        "valid": true,
+        "volume": 141.5287490442233,
+        "bbox": [
+          -18.5,
+          30.5,
+          281.0,
+          -11.5,
+          37.5,
+          286.0
+        ]
+      },
+      {
+        "name": "camera_spacer_4",
+        "solids": 1,
+        "valid": true,
+        "volume": 141.52874904422328,
+        "bbox": [
+          11.5,
+          30.5,
+          281.0,
+          18.5,
+          37.5,
+          286.0
+        ]
+      },
+      {
+        "name": "left_SO101_base_modified",
+        "solids": 1,
+        "valid": true,
+        "volume": 122134.41334629811,
+        "bbox": [
+          -160.46250000000003,
+          -53.07784667588001,
+          77.9999999,
+          -49.5375,
+          33.922153526702274,
+          150.00000010000002
+        ]
+      },
+      {
+        "name": "right_SO101_base_modified",
+        "solids": 1,
+        "valid": true,
+        "volume": 122134.41334629049,
+        "bbox": [
+          49.537499999999966,
+          -53.07784667588001,
+          77.9999999,
+          160.4625,
+          33.922153526702274,
+          150.00000010000002
+        ]
+      }
+    ]
+  },
+  {
+    "check": "negative_parameter_wall",
+    "status": "PASS",
+    "detail": "wall >=2.4 mm and M3 clearance >=3.4 mm required"
+  },
+  {
+    "check": "M3_clearance_independent",
+    "status": "PASS",
+    "detail": [
+      {
+        "x": -40.0,
+        "y": -40.0,
+        "inner_intersection_mm3": 0.0,
+        "outer_intersection_mm3": 0.9072919583569661
+      },
+      {
+        "x": 40.0,
+        "y": -40.0,
+        "inner_intersection_mm3": 0.0,
+        "outer_intersection_mm3": 0.9072919583569661
+      },
+      {
+        "x": -40.0,
+        "y": 40.0,
+        "inner_intersection_mm3": 0.0,
+        "outer_intersection_mm3": 0.9072919583569661
+      },
+      {
+        "x": 40.0,
+        "y": 40.0,
+        "inner_intersection_mm3": 0.0,
+        "outer_intersection_mm3": 0.9072919583569661
+      }
+    ]
+  },
+  {
+    "check": "LeKiwi_existing_mount_axes",
+    "status": "PASS",
+    "detail": [
+      {
+        "target": [
+          -40.0,
+          -40.0
+        ],
+        "source_circle": [
+          -40.0,
+          -40.0,
+          1.74253,
+          0.007503
+        ],
+        "axis_error_mm": 0.0
+      },
+      {
+        "target": [
+          40.0,
+          -40.0
+        ],
+        "source_circle": [
+          40.0,
+          -40.0,
+          1.74253,
+          0.007503
+        ],
+        "axis_error_mm": 0.0
+      },
+      {
+        "target": [
+          -40.0,
+          40.0
+        ],
+        "source_circle": [
+          -40.0,
+          40.0,
+          1.74253,
+          0.007503
+        ],
+        "axis_error_mm": 0.0
+      },
+      {
+        "target": [
+          40.0,
+          40.0
+        ],
+        "source_circle": [
+          40.0,
+          40.0,
+          1.74253,
+          0.007503
+        ],
+        "axis_error_mm": 0.0
+      }
+    ]
+  },
+  {
+    "check": "body_pairwise_interference",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "check": "source_SO101_full_STEP",
+    "status": "FAIL",
+    "detail": {
+      "solids": 266,
+      "valid": false,
+      "volume": 839773.1645916003,
+      "bbox": [
+        -55.46249999999992,
+        -226.4702673063989,
+        0.3942955342207784,
+        55.4625000000002,
+        92.88056628376998,
+        253.82651505173774
+      ],
+      "provenance": "Reused actual baseline geometry check after exact SHA256 match; original full STEP was imported and tested on first run."
+    }
+  },
+  {
+    "check": "tolerance_stack",
+    "status": "CONDITIONAL",
+    "detail": {
+      "M3_nominal_screw_max_mm": 3.0,
+      "printed_hole_nominal_mm": 3.6,
+      "assumed_hole_error_mm": 0.2,
+      "min_diametral_clearance_mm": 0.3999999999999999,
+      "face_edge_nominal_gap_mm": 0.6,
+      "assumed_each_edge_error_mm": 0.2,
+      "face_edge_worst_gap_mm": 0.19999999999999996,
+      "status": "Positive clearance under assumed errors; printer errors require a measured coupon"
+    }
+  },
+  {
+    "check": "sampled_source_URDF_motion",
+    "status": "LIMITED",
+    "detail": {
+      "samples": 61,
+      "collision_samples": 31,
+      "neutral_sample": {
+        "sample": 0,
+        "joints_rad": {
+          "gripper": 0.0,
+          "wrist_roll": 0.0,
+          "wrist_flex": 0.0,
+          "elbow_flex": 0.0,
+          "shoulder_lift": 0.0,
+          "shoulder_pan": 0.0
+        },
+        "collisions": [],
+        "status": "CLEAR_AT_THIS_SAMPLE"
+      },
+      "small_single_joint_sweep_collision_samples": 0,
+      "not_checked": [
+        "continuous trajectories",
+        "combined commissioning joint extremes",
+        "independent left/right joint combinations",
+        "arm self collision",
+        "cables",
+        "servo calibration",
+        "dynamic control"
+      ],
+      "source_frame_alignment": "base bounding box matched after +90 deg Z rotation; source URDF/STEP revisions differ"
+    }
+  },
+  {
+    "check": "power_screen",
+    "status": "FAIL",
+    "detail": {
+      "servo_count": 15,
+      "conservative_7_4V_stall_current_A_each": 2.5,
+      "all_stall_A_screen": 37.5,
+      "three_assumed_5A_supplies_A": 15,
+      "per_arm_stall_A_screen": 15,
+      "per_arm_assumed_supply_A": 5,
+      "result": "FAIL conservative simultaneous stall screen. Current is a 7.4V variant reference, not a measured 5V value. Source listing rail ratings, adapter current capability and continuous duty unverified."
+    }
+  },
+  {
+    "check": "load_screen",
+    "status": "CONDITIONAL",
+    "detail": {
+      "payload_assumption_kg": 0.1,
+      "arm_source_URDF_mass_kg": 0.632006,
+      "reach_assumption_m": 0.3,
+      "shoulder_static_torque_Nm": 1.224296829,
+      "repo_6V_stall_torque_Nm": 1.61809725,
+      "torque_ratio_to_6V_stall": 0.7566274703204644,
+      "custom_solid_PLA_mass_upper_bound_kg": 1.3062646022731723,
+      "deck_beam_stress_MPa": 0.4342657606681034,
+      "deck_beam_deflection_mm": 0.10193182437904096,
+      "assumed_print_modulus_MPa": 1500.0,
+      "conclusion": "No qualified payload at 5V: continuous servo rating unavailable; simple beam screen excludes creep, notch, layer strength and joint stiffness"
+    }
+  },
+  {
+    "check": "tipping_screen",
+    "status": "CONDITIONAL",
+    "detail": {
+      "contact_xy_m": [
+        [
+          0.00061,
+          -0.126375
+        ],
+        [
+          0.092511,
+          0.054116
+        ],
+        [
+          -0.092428,
+          0.052659
+        ]
+      ],
+      "center_to_closest_edge_m": 0.053385516332831416,
+      "base_mass_assumed_kg": 1.0,
+      "solid_shell_mass_upper_bound_kg": 1.3062646022731723,
+      "total_screen_mass_kg": 3.7702766022731726,
+      "two_arms_extended_COM_y_m": -0.060765352924839984,
+      "signed_COM_edge_margins_m": [
+        0.030313350434912303,
+        0.11414898357805492,
+        0.029712637106220303
+      ],
+      "minimum_static_margin_m": 0.029712637106220303,
+      "assumed_COM_height_m": 0.22,
+      "lateral_acceleration_threshold_screen_m_s2": 1.3249135000546417,
+      "warning": "Wheel centers approximate contacts; assumed base mass and solid shell density. Measure COM/contact patch. Dynamic braking, external loads, slopes and reduced infill are unvalidated."
+    }
+  }
+]

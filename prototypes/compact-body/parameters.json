@@ -1,0 +1,17 @@
+{
+  "deck_diameter": 340.0,
+  "deck_thickness": 8.0,
+  "deck_bottom": 70.0,
+  "arm_x": 105.0,
+  "arm_y": -20.0,
+  "hole_diameter": 3.6,
+  "column_width": 64.0,
+  "column_depth": 40.0,
+  "column_y": 55.0,
+  "column_height": 192.0,
+  "wall": 3.0,
+  "head_width": 124.0,
+  "head_depth": 84.0,
+  "head_height": 80.0,
+  "camera_aperture": 24.0
+}

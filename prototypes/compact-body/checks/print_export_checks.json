@@ -1,0 +1,152 @@
+[
+  {
+    "part": "deck",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.076080322265625,
+    "relative_volume_error": 0.0006000292180548632,
+    "z_min_mm": 0.0,
+    "sha256": "e380b08c0403cd3c0d683d5bc506373efa85e7c186af96e1d8f56676565ed485"
+  },
+  {
+    "part": "column_foot",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 8.502146521632835e-06,
+    "z_min_mm": 0.0,
+    "sha256": "25fb61d679de8e844804300bc2cec505fbd0b19136c3db850d43377749b6421d"
+  },
+  {
+    "part": "column",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 1.791906727051569e-06,
+    "z_min_mm": 0.0,
+    "sha256": "6e4cd34bb0cd4ba9296e912aa12559dea8db81772acd07e9a6d0517b55fac938"
+  },
+  {
+    "part": "column_rear_cover",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 0.0,
+    "z_min_mm": 0.0,
+    "sha256": "c217f6a37bb12d65367646b0416b4e763d0f60c141d641bdd98eb063eb0a13c9"
+  },
+  {
+    "part": "column_lower_bridge",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 5.1294462559385035e-05,
+    "z_min_mm": 0.0,
+    "sha256": "e9d8efc0fc9a89e1ce08eb42db9547e97824b186ff1a7a827f81bf5b2827a67c"
+  },
+  {
+    "part": "column_upper_bridge",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 5.1294462578993705e-05,
+    "z_min_mm": 0.0,
+    "sha256": "9ebee4b4e3ef508585df0f2dbc1ca782b52cdb6f744f8b25d87310bcfeb7bd2e"
+  },
+  {
+    "part": "head_shell",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 2.6944023816423737e-06,
+    "z_min_mm": 0.0,
+    "sha256": "934293b1a1969574583877a75e0a9c33028d548671537324b06bcffaef5ef2d0"
+  },
+  {
+    "part": "face_panel",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 3.051757815342171e-06,
+    "relative_volume_error": 4.947840647067206e-05,
+    "z_min_mm": 0.0,
+    "sha256": "eb21bceb3607566c9e6f56e37c53081701618e732b305b9425c420c2046b843a"
+  },
+  {
+    "part": "camera_shelf",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0,
+    "relative_volume_error": 1.2450259641918445e-05,
+    "z_min_mm": 0.0,
+    "sha256": "6cdc4a9219395d7f8a91c4cc5557fce0ad84e600a5a03889fa7a085ea4c4afdc"
+  },
+  {
+    "part": "camera_spacer_1",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0015664100646972656,
+    "relative_volume_error": 0.0005966939080745377,
+    "z_min_mm": 0.0,
+    "sha256": "4dbb26f95e4a936604b43b62418042d18d0e6dd65397eab41aa34d2cbd58f893"
+  },
+  {
+    "part": "camera_spacer_2",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0015664100646972656,
+    "relative_volume_error": 0.0005966939080745377,
+    "z_min_mm": 0.0,
+    "sha256": "4dbb26f95e4a936604b43b62418042d18d0e6dd65397eab41aa34d2cbd58f893"
+  },
+  {
+    "part": "camera_spacer_3",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0015664100646972656,
+    "relative_volume_error": 0.0005966939080741362,
+    "z_min_mm": 0.0,
+    "sha256": "5ebae8516baed482b49aa71a99e39d018efe7bc4dc1b9d836d0d459e457ccac3"
+  },
+  {
+    "part": "camera_spacer_4",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 0.0015664100646972656,
+    "relative_volume_error": 0.000596693908074337,
+    "z_min_mm": 0.0,
+    "sha256": "4dbb26f95e4a936604b43b62418042d18d0e6dd65397eab41aa34d2cbd58f893"
+  },
+  {
+    "part": "left_SO101_base_modified",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 3.051757772709607e-06,
+    "relative_volume_error": 2.9079907778056823e-06,
+    "z_min_mm": 9.999995143061824e-08,
+    "sha256": "382936c27c5fd21160de9605313895e9980b14398ad787b70bbc5554cfbb2fc3"
+  },
+  {
+    "part": "right_SO101_base_modified",
+    "status": "PASS",
+    "watertight": true,
+    "winding_consistent": true,
+    "max_dimension_error_mm": 3.051757772709607e-06,
+    "relative_volume_error": 2.8536915235009664e-06,
+    "z_min_mm": 9.999995143061824e-08,
+    "sha256": "462869bf6c24fb71b06baa88f916c5df923da78174893e792a24249cd3017eb0"
+  }
+]

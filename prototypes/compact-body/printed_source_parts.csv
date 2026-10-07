@@ -1,0 +1,16 @@
+part,qty,source_path,status,volume_each_mm3,watertight
+Base_motor_holder_SO101,2,source-soarm/STL/SO101/Individual/Base_motor_holder_SO101.stl,source unchanged,23709.036375715736,True
+Motor_holder_SO101_Base,2,source-soarm/STL/SO101/Individual/Motor_holder_SO101_Base.stl,source unchanged,13307.191403017132,True
+Rotation_Pitch_SO101,2,source-soarm/STL/SO101/Individual/Rotation_Pitch_SO101.stl,source unchanged,68787.1786680352,True
+Upper_arm_SO101,2,source-soarm/STL/SO101/Individual/Upper_arm_SO101.stl,source unchanged,117328.19197700791,True
+Under_arm_SO101,2,source-soarm/STL/SO101/Individual/Under_arm_SO101.stl,source unchanged,92895.03045840858,True
+Motor_holder_SO101_Wrist,2,source-soarm/STL/SO101/Individual/Motor_holder_SO101_Wrist.stl,source unchanged,13871.623342825786,True
+Wrist_Roll_Pitch_SO101,2,source-soarm/STL/SO101/Individual/Wrist_Roll_Pitch_SO101.stl,source unchanged,32299.355781760885,True
+Wrist_Roll_Follower_SO101,2,source-soarm/STL/SO101/Individual/Wrist_Roll_Follower_SO101.stl,source unchanged,56618.43700777999,True
+Moving_Jaw_SO101,2,source-soarm/STL/SO101/Individual/Moving_Jaw_SO101.stl,source unchanged,20692.939095361915,True
+WaveShare_Mounting_Plate_SO101,2,source-soarm/STL/SO101/Individual/WaveShare_Mounting_Plate_SO101.stl,source unchanged,9093.45215924056,True
+base_plate_layer1,1,source-lekiwi/3DPrintMeshes/base_plate_layer1.stl,source unchanged,247965.76512367092,True
+base_plate_layer2,1,source-lekiwi/3DPrintMeshes/base_plate_layer2.stl,source unchanged,235845.96266180297,True
+drive_motor_mount_v2,3,source-lekiwi/3DPrintMeshes/drive_motor_mount_v2.stl,source unchanged,15660.14439261875,True
+servo_wheel_hub,3,source-lekiwi/3DPrintMeshes/servo_wheel_hub.stl,source unchanged,15741.532094040182,True
+servo_controller_mount,1,source-lekiwi/3DPrintMeshes/servo_controller_mount.stl,source unchanged,15997.737277997629,True

@@ -1,0 +1,17 @@
+{
+  "repository_quotes_usd": 375.81,
+  "manufacturer_filament_listing_usd": 33.98,
+  "unquoted_allowances_usd": 35.0,
+  "planning_total_usd": 444.79,
+  "shipping_tax_duty_excluded": true,
+  "assumptions": [
+    "existing PC/Spark host",
+    "existing printer and tools",
+    "wired external power",
+    "no leader arm or battery",
+    "prices do not guarantee stock, landed cost or qualified power"
+  ],
+  "servo_price_cap_for_500_usd": 17.79,
+  "three_spool_planning_total_usd": 461.78,
+  "source_filament_quantity_requires_slicer_check": true
+}

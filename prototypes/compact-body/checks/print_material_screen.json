@@ -1,0 +1,6 @@
+{
+  "source_printed_solid_volume_mm3": 1491219.3670617559,
+  "source_printed_solid_PLA_kg": 1.8491120151565772,
+  "excludes": "new body and two modified arm bases; actual sliced mass differs",
+  "source_stl_all_watertight": true
+}

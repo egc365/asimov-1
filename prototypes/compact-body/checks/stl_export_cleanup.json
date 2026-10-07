@@ -1,0 +1,16 @@
+[
+  {
+    "part": "left_SO101_base_modified",
+    "removed_zero_area_triangles": 13,
+    "max_removed_triangle_area_mm2": 0.0,
+    "volume_change_mm3": 1.4551915228366852e-11,
+    "operation": "remove zero-area tessellation triangles only; no hole filling or vertex welding"
+  },
+  {
+    "part": "right_SO101_base_modified",
+    "removed_zero_area_triangles": 13,
+    "max_removed_triangle_area_mm2": 0.0,
+    "volume_change_mm3": 4.3655745685100555e-11,
+    "operation": "remove zero-area tessellation triangles only; no hole filling or vertex welding"
+  }
+]

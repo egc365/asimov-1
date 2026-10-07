@@ -1,0 +1,32 @@
+[
+  {
+    "path": "source-soarm/STEP/SO101/Base_SO101.step",
+    "sha256": "95209ec6a3ca06b1ec084f72d9c73324bdcf9d0e17213ef293f45f95a3993288",
+    "bytes": 1092553
+  },
+  {
+    "path": "source-soarm/STEP/SO101/SO101 Assembly.step",
+    "sha256": "f754be35708382b05ce65768ae33c612f91dca11ad19d14807dc637eb944ba3d",
+    "bytes": 20496014
+  },
+  {
+    "path": "source-soarm/Simulation/SO101/so101_new_calib.urdf",
+    "sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+    "bytes": 16231
+  },
+  {
+    "path": "source-lekiwi/3DPrintMeshes/base_plate_layer2.stl",
+    "sha256": "06b5e4306f697a6397f1f59bcf0f2e402c24e4c6d1dc1dc5e5ecad9721f11fcc",
+    "bytes": 489884
+  },
+  {
+    "path": "source-lekiwi/URDF/LeKiwi.urdf",
+    "sha256": "36e102375e1e6ffdc1ca2d343c7406284b3cabc77ae16bfc001a3da89fddc6e1",
+    "bytes": 66793
+  },
+  {
+    "path": "source-asimov/prototypes/compact-body/source/SO101_base_assembly_frame.step",
+    "sha256": "8ed56d6bc036afcc7d4f500282e9f153459c5a04a13681badb5247bacc7e6b4d",
+    "bytes": 2775135
+  }
+]
