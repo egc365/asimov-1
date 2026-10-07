@@ -1,0 +1,13 @@
+{
+  "C_compile": "passed -Wall -Wextra -Werror",
+  "C_Python_cases": 1000,
+  "max_torque_error_Nm": 8.881784197001252e-16,
+  "fault_cases": 4,
+  "yaw_saturation": "passed",
+  "source_serial_golden_frame": "cdabceffe803eb57",
+  "feedback_18_and_22_byte_modes": "passed, mode mismatch rejected",
+  "bad_feedback_cases": 2,
+  "uncalibrated_driver": "rejected",
+  "negative_CAD_parameters": 6,
+  "hardware_port": "not built/flashed; IMU drivers, real-time scheduling and Nm/current calibration still required"
+}

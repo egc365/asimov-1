@@ -1,0 +1,60 @@
+{
+  "pelvis_origin_mm": [
+    55.35253801079133,
+    0,
+    344.045
+  ],
+  "source_rest_upper_mass_with_hands_kg": 20.332296427812093,
+  "source_rest_upper_COM_x_m": -0.05545171925376213,
+  "source_hip_frames_mm": [
+    [
+      -52,
+      67.5,
+      -44.045
+    ],
+    [
+      -52,
+      -67.5,
+      -44.045
+    ]
+  ],
+  "cradle_hole_centers_relative_hip_mm": [
+    [
+      -50.1,
+      0.0
+    ],
+    [
+      -35.42605,
+      -35.42605
+    ],
+    [
+      -35.42605,
+      35.42605
+    ],
+    [
+      0.0,
+      -50.1
+    ],
+    [
+      -0.0,
+      50.1
+    ],
+    [
+      35.42605,
+      -35.42605
+    ],
+    [
+      35.42605,
+      35.42605
+    ],
+    [
+      50.1,
+      0.0
+    ]
+  ],
+  "source_plate": "ASV1_200_03A",
+  "outer_PCD_mm": 100.2,
+  "hole_diameter_mm": 4.3,
+  "spacer_gap_mm": 1,
+  "interface_status": "source nominal projection and MJCF joint frames; physical case-face datum, spacers and longer bolt engagement require fit verification"
+}

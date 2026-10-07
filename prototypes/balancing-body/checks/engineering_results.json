@@ -1,0 +1,144 @@
+{
+  "CALC-001_mass": {
+    "body_mass_kg": 28.004238968407197,
+    "total_mass_kg": 31.004238968407197,
+    "com_above_axle_m": [
+      1.4866807653802619e-18,
+      -1.0112725878081244e-06,
+      0.42812916819826113
+    ],
+    "body_pitch_inertia_COM_kgm2": 1.6481376935098335,
+    "wheel_radius_m": 0.08,
+    "wheel_track_m": 0.4,
+    "wheel_mass_kg_each": 1.5,
+    "source_upper_body_kg": 19.332296427812093,
+    "upper_with_hand_allowances_kg": 20.33229642781209,
+    "upper_COM_above_axle_m": [
+      -9.918124297079794e-05,
+      -1.3928539411033799e-06,
+      0.5489746394646969
+    ],
+    "new_inertias": "source tensors preserved; new parts use bbox solid-box approximation, wheel solid-cylinder assumption",
+    "new_collisions": "bounding boxes for new base components, original capsules for upper body; exact static base BRep intersections checked separately"
+  },
+  "CALC-002_tip": {
+    "total_COM_height_m": 0.46670297786655995,
+    "lateral_static_tip_deg": 23.196976455394285,
+    "parking_fore_aft_static_tip_deg": 21.090842727134696,
+    "lateral_accel_static_tip_m_s2": 4.203958605468715,
+    "two_wheel_poweroff_fore_aft_support_margin_m": 0,
+    "limits": "level floor, no slip, fixed posture; roll is not corrected by fore/aft balance controller"
+  },
+  "CALC-003_deck": {
+    "span_m": 0.312,
+    "vertical_case_g": 2,
+    "force_N": 608.3031685601493,
+    "bending_stress_MPa": 18.53423716706705,
+    "deflection_mm": 0.5447454054320576,
+    "allowable_unwelded_assumed_MPa": 120,
+    "margin_unwelded": 6.474504395207833,
+    "weld_zone_yield_assumed_MPa": 80,
+    "weld_and_hole_concentration_assumed": 1.5,
+    "welded_margin_factor_2": 1.4387787544906294,
+    "six_mm_deck_welded_margin": 0.8093130494009791,
+    "limits": "simply supported one-dimensional section; assumed weld-zone strength and stress concentration require coupon/connection proof; no fatigue or FEA"
+  },
+  "CALC-004_column": {
+    "horizontal_case_g": 0.5,
+    "moment_Nm": 43.77890303252142,
+    "bending_stress_MPa": 2.8005234661677942,
+    "margin": 42.84913211750612,
+    "limits": "prismatic tube only; welds and bolts not included"
+  },
+  "CALC-005_axle": [
+    {
+      "diameter_mm": 12,
+      "cantilever_m": 0.04400000000000001,
+      "vertical_load_N_each_2g": 304.15158428007464,
+      "stress_concentration_assumed": 1.8,
+      "bending_MPa_before_Kt": 78.88585317947498,
+      "torsion_MPa": 17.683882565766147,
+      "von_Mises_MPa": 145.26048080260975,
+      "steel_yield_assumed_MPa": 250,
+      "factor_to_first_yield": 1.7210462103572255,
+      "margin_against_factor_2": 0.8605231051786127,
+      "pass_factor_2": false,
+      "limit": "source shaft material, root radius, flats and torque retention unknown"
+    },
+    {
+      "diameter_mm": 14,
+      "cantilever_m": 0.04400000000000001,
+      "vertical_load_N_each_2g": 304.15158428007464,
+      "stress_concentration_assumed": 1.8,
+      "bending_MPa_before_Kt": 49.67738859115626,
+      "torsion_MPa": 11.136205930628245,
+      "von_Mises_MPa": 91.47598791068135,
+      "steel_yield_assumed_MPa": 250,
+      "factor_to_first_yield": 2.7329576395950386,
+      "margin_against_factor_2": 1.3664788197975193,
+      "pass_factor_2": true,
+      "limit": "source shaft material, root radius, flats and torque retention unknown"
+    },
+    {
+      "diameter_mm": 16,
+      "cantilever_m": 0.04400000000000001,
+      "vertical_load_N_each_2g": 304.15158428007464,
+      "stress_concentration_assumed": 1.8,
+      "bending_MPa_before_Kt": 33.279969310091005,
+      "torsion_MPa": 7.460387957432594,
+      "von_Mises_MPa": 61.281765338600984,
+      "steel_yield_assumed_MPa": 250,
+      "factor_to_first_yield": 4.079516943068979,
+      "margin_against_factor_2": 2.0397584715344896,
+      "pass_factor_2": true,
+      "limit": "source shaft material, root radius, flats and torque retention unknown"
+    }
+  ],
+  "CALC-006_tolerance": {
+    "shaft_nominal_mm": 14,
+    "shaft_tolerance_mm": 0.02,
+    "bore_nominal_mm": 14.15,
+    "bore_tolerance_mm": 0.05,
+    "diametral_clearance_min_mm": 0.07999999999999964,
+    "diametral_clearance_max_mm": 0.22000000000000106,
+    "M6_clearance_proposed_mm": 6.6,
+    "clamp_split_gap_mm": 1.5,
+    "source_cradle_nominal_holes_mm": 4.3,
+    "source_cradle_nominal_PCD_mm": 100.2,
+    "limits": "new machining tolerances proposed, source mounting holes measured nominal only; source case datum, screw engagement and clamp friction require physical fit/proof"
+  },
+  "CALC-007_transport": {
+    "wheel_rpm_at_0_4_m_s": 47.7464829275686,
+    "mechanical_power_W_each_at_6Nm_0_4m_s": 30.000000000000004,
+    "UART_command_time_ms_115200": 0.6944444444444444,
+    "UART_feedback_18bytes_ms_115200": 1.5625,
+    "UART_feedback_22bytes_ms_115200": 1.909722222222222,
+    "firmware_filter_63_percent_time_ms": 47.45610790514952,
+    "minimum_effective_Kt_Nm_per_A_for_6Nm_at_15A": 0.4,
+    "copper_heat_formula": "P_copper=I_rms^2 R; actual motor R and Kt unavailable",
+    "limits": "serial time excludes scheduling; nominal filter alone adds about 47ms response time; no electrical efficiency or thermal rating implied"
+  },
+  "CALC-008_clamp": {
+    "M6_bolts_per_clamp": 2,
+    "preload_assumed_N_each": 7000,
+    "friction_assumed": 0.15,
+    "shaft_radius_m": 0.007,
+    "torque_capacity_Nm": 14.700000000000001,
+    "capacity_over_6Nm": 2.45,
+    "friction_for_factor_2_min": 0.12244897959183673,
+    "cap_bending_stress_MPa": 79.48730450749149,
+    "cap_margin_assumed": 1.5096750448833032,
+    "bolt_M6_area_assumed_mm2": 20.1,
+    "bolt_8_8_proof_assumed_MPa": 580,
+    "preload_fraction_of_proof": 0.6004460456338995,
+    "limits": "friction capacity is not validated retention; smooth shaft only, oily/flat shafts require different insert or keyed torque arm. No wrench setting authorized by this calculation"
+  },
+  "CALC-009_cradle": {
+    "source_hole_count_each": 8,
+    "source_PCD_mm": 100.2,
+    "vertical_upper_load_N_2g": 398.91965591367324,
+    "nominal_direct_shear_N_each_M4": 24.932478494604577,
+    "horizontal_upper_moment_Nm_0_5g": 24.83021937662194,
+    "limits": "source hole nominal pattern, new cradle projected to source hip joint frame; source case-face datum, thread engagement, spacer stack and structural case capacity unverified. Source outer fasteners must carry loads through metal, not housing shell"
+  }
+}

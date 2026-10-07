@@ -1,0 +1,286 @@
+<mujoco model="Asimov_upper_on_new_balancing_base">
+  <compiler angle="radian" meshdir="../../../sim-model/assets/meshes" autolimits="true" fusestatic="false" />
+  <option integrator="implicitfast" solver="Newton" iterations="80" ls_iterations="20" timestep=".001" noslip_iterations="5" impratio="10" cone="elliptic" />
+  <default>
+    <joint frictionloss="0" />
+    <default class="motor">
+      <joint damping="0" />
+    </default>
+    <default class="passive_upper">
+      <joint damping="15.0" stiffness="80.0" springref="0" />
+    </default>
+    <default class="visual">
+      <geom material="visual_grey" contype="0" conaffinity="0" group="2" density="0" />
+    </default>
+    <default class="collision">
+      <geom group="3" rgba=".2 .6 .2 .3" type="capsule" contype="1" conaffinity="1" priority="1" condim="6" />
+      <default class="foot_capsule">
+        <geom type="capsule" size="0.005" condim="3" friction="0.6" />
+      </default>
+      <default class="body_capsule">
+        <geom type="capsule" size="0.05" />
+      </default>
+    </default>
+  </default>
+  <visual>
+    <global offwidth="1920" offheight="1080" />
+  </visual>
+  <asset>
+    <mesh name="pelvis.STL" file="IMU_ORIGIN.STL" />
+    <mesh name="waist_yaw_link.STL" file="WAIST_YAW.STL" />
+    <mesh name="neck_yaw_link.STL" file="NECK_YAW.STL" />
+    <mesh name="neck_pitch_link.STL" file="NECK_PITCH.STL" />
+    <mesh name="right_shoulder_pitch_link.STL" file="RIGHT_SHOULDER_PITCH.STL" />
+    <mesh name="right_shoulder_roll_link.STL" file="RIGHT_SHOULDER_ROLL.STL" />
+    <mesh name="right_shoulder_yaw_link.STL" file="RIGHT_SHOULDER_YAW.STL" />
+    <mesh name="right_elbow_link.STL" file="RIGHT_ELBOW.STL" />
+    <mesh name="right_wrist_yaw_link.STL" file="RIGHT_WRIST_YAW.STL" />
+    <mesh name="left_shoulder_pitch_link.STL" file="LEFT_SHOULDER_PITCH.STL" />
+    <mesh name="left_shoulder_roll_link.STL" file="LEFT_SHOULDER_ROLL.STL" />
+    <mesh name="left_shoulder_yaw_link.STL" file="LEFT_SHOULDER_YAW.STL" />
+    <mesh name="left_elbow_link.STL" file="LEFT_ELBOW.STL" />
+    <mesh name="left_wrist_yaw_link.STL" file="LEFT_WRIST_YAW.STL" />
+    <material name="visual_grey" rgba=".79 .81 .77 1" />
+    <material name="collision_grey" rgba=".5 .5 .5 1" />
+    <material name="groundplane" rgba=".91 .92 .90 1" />
+    <material name="material" rgba=".8 .8 .8 1" />
+    <material name="collision_material" rgba="1 .3 .1 1" />
+    <texture name="studio_sky" type="skybox" builtin="gradient" rgb1=".68 .73 .75" rgb2=".90 .92 .92" width="512" height="3072" />
+    <mesh name="PART-101_deck" file="../../../prototypes/balancing-body/cad/concept/PART-101_deck.stl" scale=".001 .001 .001" />
+    <mesh name="PART-102_column" file="../../../prototypes/balancing-body/cad/concept/PART-102_column.stl" scale=".001 .001 .001" />
+    <mesh name="PART-103_interface_blank" file="../../../prototypes/balancing-body/cad/concept/PART-103_interface_blank.stl" scale=".001 .001 .001" />
+    <mesh name="PART-105_left_pelvis_cradle" file="../../../prototypes/balancing-body/cad/concept/PART-105_left_pelvis_cradle.stl" scale=".001 .001 .001" />
+    <mesh name="PART-105_right_pelvis_cradle" file="../../../prototypes/balancing-body/cad/concept/PART-105_right_pelvis_cradle.stl" scale=".001 .001 .001" />
+    <mesh name="PART-104_right_axle_seat" file="../../../prototypes/balancing-body/cad/concept/PART-104_right_axle_seat.stl" scale=".001 .001 .001" />
+    <mesh name="PART-106_right_torque_clamp_lower" file="../../../prototypes/balancing-body/cad/concept/PART-106_right_torque_clamp_lower.stl" scale=".001 .001 .001" />
+    <mesh name="PART-106_right_torque_clamp_cap" file="../../../prototypes/balancing-body/cad/concept/PART-106_right_torque_clamp_cap.stl" scale=".001 .001 .001" />
+    <mesh name="PART-104_left_axle_seat" file="../../../prototypes/balancing-body/cad/concept/PART-104_left_axle_seat.stl" scale=".001 .001 .001" />
+    <mesh name="PART-106_left_torque_clamp_lower" file="../../../prototypes/balancing-body/cad/concept/PART-106_left_torque_clamp_lower.stl" scale=".001 .001 .001" />
+    <mesh name="PART-106_left_torque_clamp_cap" file="../../../prototypes/balancing-body/cad/concept/PART-106_left_torque_clamp_cap.stl" scale=".001 .001 .001" />
+    <mesh name="PART-202_battery_ENVELOPE" file="../../../prototypes/balancing-body/cad/concept/PART-202_battery_ENVELOPE.stl" scale=".001 .001 .001" />
+  </asset>
+  <worldbody>
+    <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" friction="0.6 .005 .0001" condim="3" rgba=".91 .92 .90 1" />
+    <light pos="1 -2 3" dir="-1 2 -3" diffuse=".9 .9 .9" castshadow="true" />
+    <light pos="-2 1 2" dir="2 -1 -2" diffuse=".5 .5 .5" castshadow="true" />
+    <light pos="0 2 3" dir="0 -2 -3" diffuse=".6 .6 .6" castshadow="true" />
+    <body name="new_drive" pos="0 0 0.081">
+      <freejoint name="drive_free" />
+      <body name="PART-101_deck">
+        <inertial pos="8.541922627403085e-18 3.1460868606835544e-19 0.10999999999999996" mass="1.6547374257229306" diaginertia="0.014129251299106197 0.00795156490974059 0.022063165676305743" />
+        <geom type="mesh" mesh="PART-101_deck" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-101_deck_collision" type="box" size="0.12 0.16 0.004" pos="0.0 0.0 0.11" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-102_column">
+        <inertial pos="-2.4104590488228283e-18 -9.57456186646969e-19 0.173" mass="0.25615439999999995" diaginertia="0.00043384016879999986 0.0003740708087999999 0.00021346199999999996" />
+        <geom type="mesh" mesh="PART-102_column" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-102_column_collision" type="box" size="0.03 0.04 0.059" pos="0.0 0.0 0.17300000000000001" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-103_interface_blank">
+        <inertial pos="7.500795097640098e-19 -1.1906023964508091e-19 0.23499999999999996" mass="0.4125030660289559" diaginertia="0.0008812440500598596 0.0008812440500598596 0.0017600130817235454" />
+        <geom type="mesh" mesh="PART-103_interface_blank" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-103_interface_blank_collision" type="box" size="0.08 0.08 0.003" pos="0.0 0.0 0.235" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-105_left_pelvis_cradle">
+        <inertial pos="0.0033525380107913335 0.07250000000000004 0.29647079707844864" mass="0.30075459631927715" diaginertia="0.00034468983026491825 0.0007039913213343481 0.0003625095400968354" />
+        <geom type="mesh" mesh="PART-105_left_pelvis_cradle" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-105_left_pelvis_cradle_collision" type="box" size="0.06 0.004 0.0585" pos="0.0033525380107913283 0.07250000000000001 0.2965" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-105_right_pelvis_cradle">
+        <inertial pos="0.0033525380107913335 -0.07250000000000004 0.29647079707844864" mass="0.30075459631927715" diaginertia="0.00034468983026491825 0.0007039913213343481 0.0003625095400968354" />
+        <geom type="mesh" mesh="PART-105_right_pelvis_cradle" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-105_right_pelvis_cradle_collision" type="box" size="0.06 0.004 0.0585" pos="0.0033525380107913283 -0.07250000000000001 0.2965" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-104_right_axle_seat">
+        <inertial pos="2.373020121398539e-18 -0.15600000000000003 0.03045086639376269" mass="0.3238969469906218" diaginertia="0.0006253370389898939 0.0008935237110981287 0.00027164157287613486" />
+        <geom type="mesh" mesh="PART-104_right_axle_seat" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-104_right_axle_seat_collision" type="box" size="0.05 0.004 0.076" pos="0.0 -0.156 0.03" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-106_right_torque_clamp_lower">
+        <inertial pos="-1.5977781383160614e-18 -0.16699999999999987 -0.015893032956970345" mass="0.06762388843578643" diaginertia="5.925895431938057e-06 3.243445969876634e-05 2.8717611289063974e-05" />
+        <geom type="mesh" mesh="PART-106_right_torque_clamp_lower" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-106_right_torque_clamp_lower_collision" type="box" size="0.035 0.007 0.014625000000000003" pos="0.0 -0.16699999999999998 -0.015374999999999998" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-106_right_torque_clamp_cap">
+        <inertial pos="-2.193163052323238e-18 -0.16700000000000007 0.015818180556808534" mass="0.06942001549566003" diaginertia="6.083290420387919e-06 3.3295936494686654e-05 2.9480366580490297e-05" />
+        <geom type="mesh" mesh="PART-106_right_torque_clamp_cap" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-106_right_torque_clamp_cap_collision" type="box" size="0.035 0.007 0.014625000000000003" pos="0.0 -0.16699999999999998 0.015374999999999998" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-104_left_axle_seat">
+        <inertial pos="2.373020121398539e-18 0.15600000000000003 0.03045086639376269" mass="0.3238969469906218" diaginertia="0.0006253370389898939 0.0008935237110981287 0.00027164157287613486" />
+        <geom type="mesh" mesh="PART-104_left_axle_seat" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-104_left_axle_seat_collision" type="box" size="0.05 0.004 0.076" pos="0.0 0.156 0.03" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-106_left_torque_clamp_lower">
+        <inertial pos="-1.5977781383160614e-18 0.16699999999999987 -0.015893032956970345" mass="0.06762388843578643" diaginertia="5.925895431938057e-06 3.243445969876634e-05 2.8717611289063974e-05" />
+        <geom type="mesh" mesh="PART-106_left_torque_clamp_lower" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-106_left_torque_clamp_lower_collision" type="box" size="0.035 0.007 0.014625000000000003" pos="0.0 0.16699999999999998 -0.015374999999999998" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-106_left_torque_clamp_cap">
+        <inertial pos="-2.193163052323238e-18 0.16699999999999998 0.015818180556808534" mass="0.06942001549566003" diaginertia="6.083290420387919e-06 3.3295936494686654e-05 2.9480366580490297e-05" />
+        <geom type="mesh" mesh="PART-106_left_torque_clamp_cap" rgba=".14 .24 .28 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-106_left_torque_clamp_cap_collision" type="box" size="0.035 0.007 0.014625000000000003" pos="0.0 0.16699999999999998 0.015374999999999998" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="PART-202_battery_ENVELOPE">
+        <inertial pos="1.1842378929335004e-19 -3.7895612573872015e-19 0.05" mass="2.3" diaginertia="0.003009166666666666 0.0055966666666666665 0.007225833333333332" />
+        <geom type="mesh" mesh="PART-202_battery_ENVELOPE" rgba=".12 .35 .31 1" contype="0" conaffinity="0" group="2" />
+        <geom name="PART-202_battery_ENVELOPE_collision" type="box" size="0.08 0.055 0.03" pos="0.0 0.0 0.05" group="3" rgba=".2 .6 .2 .3" />
+      </body>
+      <body name="electronics" pos="0 0 0.14">
+        <inertial mass="0.6" pos="0 0 0" diaginertia=".002 .002 .002" />
+      </body>
+      <body name="fasteners_cables" pos="0 0 0.15">
+        <inertial mass="0.35" pos="0 0 0" diaginertia=".002 .002 .002" />
+      </body>
+      <body name="stowed_parking" pos="0 0 0.095">
+        <inertial mass="0.5751567543605239" pos="0 0 0" diaginertia=".002 .002 .002" />
+      </body>
+      <body name="pelvis_link" pos="0.055352538010791326 0.0 0.344045" quat="1 0 0 0">
+        <site name="imu_in_pelvis" size="0.01" pos="-0.05 0 0.08" />
+        <inertial pos="-0.0540918323179141 -3.48259522403486E-05 -0.0156255182184312" mass="3.50691251175897" fullinertia="0.00552189690363016 0.00626668820315558 0.00504655399919599 4.55841164433384E-06 -7.80273388403568E-05 1.10177467151231E-07" />
+        <geom name="pelvis_collision" class="body_capsule" fromto="-0.04 0 0.025 -0.04 0 -0.05" size="0.04" />
+        <geom name="pelvis_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="pelvis.STL" class="visual" />
+        <body name="waist_yaw_link" pos="-0.052 0 0.074755" quat="1.0 0.0 0.0 0.0">
+          <joint name="waist_yaw_joint" type="hinge" ref="0.0" class="motor" range="-1.570796 1.570796" axis="0 0 1" armature="0.095625" damping="1" stiffness="0" />
+          <inertial pos="-0.00699393636668848 -2.50812125574469E-05 0.20403987801712" mass="8.20850158063177" fullinertia="0.0498139710698645 0.0397024417978058 0.0321266580275838 -2.41115308804516E-05 0.00319230504367261 -1.46092909936038E-05" />
+          <geom name="waist_yaw_link_collision" class="body_capsule" fromto="0 0 0.05 0 0 0.30" size="0.06" />
+          <geom name="waist_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="waist_yaw_link.STL" class="visual" />
+          <body name="neck_yaw_link" pos="-0.0165987745492247 0 0.37816702955645" quat="1.0 0.0 0.0 0.0">
+            <inertial pos="-0.000232155049410487 -0.000686932388815892 0.0356746841654919" mass="0.53278930532821" fullinertia="0.000264347242952148 0.000248771564307738 0.00020193091979106 -3.48413513698088E-12 1.21262681406962E-05 -8.87364722806786E-11" />
+            <geom name="neck_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="neck_yaw_link.STL" class="visual" />
+            <body name="neck_pitch_link" pos="0 0 0.0373499999999998" quat="1.0 0.0 0.0 0.0">
+              <inertial pos="0.0123887754708077 0.000861952115589091 0.0425189272866255" mass="0.394055609177456" fullinertia="0.00128726711862714 0.00173087070402671 0.00145145415000959 3.55175311514234E-07 0.000142554637413333 -3.99783179861009E-07" />
+              <geom name="neck_pitch_link_collision" class="body_capsule" fromto="0.03 0 0 0.03 0 0.04" size="0.05" />
+              <geom name="neck_pitch_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="neck_pitch_link.STL" class="visual" />
+            </body>
+          </body>
+          <body name="right_shoulder_pitch_link" pos="-0.0262128253533167 -0.0964999999999998 0.261140483320038" quat="1.0 0.0 0.0 0.0">
+            <joint name="right_shoulder_pitch_joint" type="hinge" ref="0.0" class="motor" range="-0.872665 3.141593" axis="0 -1 0" armature="0.11" damping="1" stiffness="0" />
+            <inertial pos="0.000129810971033137 -0.0157921829692733 -1.88616919207796E-05" mass="0.599156105726411" fullinertia="0.000330318150839075 0.000418513262392796 0.000421384143645388 -2.56885268466272E-07 2.44063757734843E-09 -3.98664414578714E-10" />
+            <geom name="right_shoulder_pitch_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="right_shoulder_pitch_link.STL" class="visual" />
+            <body name="right_shoulder_roll_link" pos="0 -0.0653532232325457 -6.33413504113611E-05" quat="1.0 0.0 0.0 0.0">
+              <joint name="right_shoulder_roll_joint" type="hinge" ref="0.0" class="motor" range="0.000000 1.570796" axis="-1 0 0" armature="0.0339552" damping="1" stiffness="0" />
+              <inertial pos="0.000114177624818339 -4.35142145794876E-05 -0.0373100689697469" mass="1.31322237625579" fullinertia="0.00163280464556345 0.00149148477281863 0.000740785347833217 4.4229503860379E-07 9.017972571202E-07 3.09076703769813E-06" />
+              <geom name="right_shoulder_roll_link_collision" class="body_capsule" fromto="0 -0.01 -0.02 0 -0.01 -0.11" size="0.035" />
+              <geom name="right_shoulder_roll_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="right_shoulder_roll_link.STL" class="visual" />
+              <body name="right_shoulder_yaw_link" pos="0 0 -0.128998749978416" quat="1.0 0.0 0.0 0.0">
+                <joint name="right_shoulder_yaw_joint" type="hinge" ref="0.0" class="motor" range="-1.570796 1.570796" axis="0 0 -1" armature="0.038" damping="1" stiffness="0" />
+                <inertial pos="-0.000325066122385375 0.000320503955106993 -0.0759404985004545" mass="0.712261755331765" fullinertia="0.000502664342430343 0.000516259495504905 0.000310678003766854 1.03874826912854E-07 3.84898679655994E-07 -9.28406240892842E-07" />
+                <geom name="right_shoulder_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="right_shoulder_yaw_link.STL" class="visual" />
+                <body name="right_elbow_link" pos="0 0 -0.0966012999998862" quat="1.0 0.0 0.0 0.0">
+                  <joint name="right_elbow_joint" type="hinge" ref="-0.785398" class="motor" range="-2.0944 0" axis="0 1 0" armature="0.0282528" damping="1" stiffness="0" />
+                  <inertial pos="0.0523755985403483 -9.84304228299482E-05 -0.0444425911778195" mass="0.662314258886328" fullinertia="0.000331709977441628 0.000418432878642283 0.00036781692231096 1.14378770241915E-07 5.58706757420512E-05 -9.7404268443382E-08" />
+                  <geom name="right_elbow_link_collision" class="body_capsule" fromto="0 -0.01 0 0.09 -0.01 -0.07" size="0.03" />
+                  <geom name="right_elbow_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="right_elbow_link.STL" class="visual" />
+                  <body name="right_wrist_yaw_link" pos="0.0865630220726329 0 -0.0726349998945883" quat="1.0 0.0 0.0 0.0">
+                    <joint name="right_wrist_yaw_joint" type="hinge" ref="0.0" class="motor" range="-3.141593 3.141593" axis="0.766044443118981 0 -0.642787609686536" armature="0.0282528" damping="1" stiffness="0" />
+                    <inertial pos="0.00382289129248181 8.36540312021405E-09 -0.00320778585722904" mass="0.0580595106779709" fullinertia="1.18803001723724E-05 8.8546080362749E-06 1.07999391749915E-05 3.73796867740447E-08 -3.06346018877142E-06 4.45423430732884E-08" />
+                    <geom name="right_wrist_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="right_wrist_yaw_link.STL" class="visual" />
+                    <body name="right_hand_allowance" pos=".04 0 -.04">
+                      <inertial mass="0.5" pos="0 0 0" diaginertia=".001 .001 .001" />
+                      <geom name="right_hand_allowance_geom" type="box" size=".045 .035 .06" rgba=".12 .35 .31 1" contype="0" conaffinity="0" group="2" />
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+          <body name="left_shoulder_pitch_link" pos="-0.0262128253533159 0.0965000000000001 0.261140483320038" quat="1.0 0.0 0.0 0.0">
+            <joint name="left_shoulder_pitch_joint" type="hinge" ref="0.0" class="motor" range="-3.141593 0.872665" axis="0 1 0" armature="0.11" damping="1" stiffness="0" />
+            <inertial pos="0.000159889483543337 0.015791587441366 -3.48203187672258E-07" mass="0.599157136550892" fullinertia="0.000330315921264664 0.000418517858443934 0.000421379165524238 2.45535699672275E-07 -2.28363178468585E-09 -1.01854853365967E-08" />
+            <geom name="left_shoulder_pitch_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="left_shoulder_pitch_link.STL" class="visual" />
+            <body name="left_shoulder_roll_link" pos="0.000100000000001779 0.0653532232325531 0" quat="1.0 0.0 0.0 0.0">
+              <joint name="left_shoulder_roll_joint" type="hinge" ref="0.0" class="motor" range="-1.570796 0.000000" axis="-1 0 0" armature="0.0339552" damping="1" stiffness="0" />
+              <inertial pos="0.00011401838763982 4.3288067202385E-05 -0.0373100597490998" mass="1.3132281302001" fullinertia="0.0016328136443199 0.00149147489643918 0.000740809790351389 -4.3632231123889E-07 9.06646221352916E-07 -3.08459314459227E-06" />
+              <geom name="left_shoulder_roll_link_collision" class="body_capsule" fromto="0 0.01 -0.02 0 0.01 -0.11" size="0.035" />
+              <geom name="left_shoulder_roll_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="left_shoulder_roll_link.STL" class="visual" />
+              <body name="left_shoulder_yaw_link" pos="0 0 -0.128998749978194" quat="1.0 0.0 0.0 0.0">
+                <joint name="left_shoulder_yaw_joint" type="hinge" ref="0.0" class="motor" range="-1.570796 1.570796" axis="0 0 -1" armature="0.038" damping="1" stiffness="0" />
+                <inertial pos="-0.000330000636187981 0.000136036715123772 -0.0753619101773522" mass="0.712261755331765" fullinertia="0.000501395820111453 0.000514632797400514 0.000310276967015705 -1.0357243024011E-07 3.85724001728373E-07 9.7896997590059E-07" />
+                <geom name="left_shoulder_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="left_shoulder_yaw_link.STL" class="visual" />
+                <body name="left_elbow_link" pos="0 0 -0.0963013000001065" quat="1.0 0.0 0.0 0.0">
+                  <joint name="left_elbow_joint" type="hinge" ref="0.785398" class="motor" range="0 2.0944" axis="0 -1 0" armature="0.0282528" damping="1" stiffness="0" />
+                  <inertial pos="0.0523756419047112 9.84723348319283E-05 -0.0444426425125844" mass="0.662317601299901" fullinertia="0.000331709518475136 0.000418430298151774 0.000367817844214662 -1.15265452395985E-07 5.58734246475865E-05 9.67795385366457E-08" />
+                  <geom name="left_elbow_link_collision" class="body_capsule" fromto="0 0.01 0 0.09 0.01 -0.07" size="0.03" />
+                  <geom name="left_elbow_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="left_elbow_link.STL" class="visual" />
+                  <body name="left_wrist_yaw_link" pos="0.0865630220759433 0 -0.0726349998946764" quat="1.0 0.0 0.0 0.0">
+                    <joint name="left_wrist_yaw_joint" type="hinge" ref="0.0" class="motor" range="-3.141593 3.141593" axis="0.766044443118927 0 -0.642787609686601" armature="0.0282528" damping="1" stiffness="0" />
+                    <inertial pos="0.00382289324376062 1.7394452961339E-08 -0.00320774203668756" mass="0.058058790654763" fullinertia="1.20674298017884E-05 8.40130139890341E-06 1.10658034937549E-05 1.83335345917148E-07 -2.8402536561247E-06 2.18479301532613E-07" />
+                    <geom name="left_wrist_yaw_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="left_wrist_yaw_link.STL" class="visual" />
+                    <body name="left_hand_allowance" pos=".04 0 -.04">
+                      <inertial mass="0.5" pos="0 0 0" diaginertia=".001 .001 .001" />
+                      <geom name="left_hand_allowance_geom" type="box" size=".045 .035 .06" rgba=".12 .35 .31 1" contype="0" conaffinity="0" group="2" />
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <site name="pelvis_site" pos="-0.05 0 0" quat="1 0 0 0" />
+      </body>
+      <body name="left_wheel" pos="0 0.2 0">
+        <joint name="left_wheel_joint" axis="0 1 0" type="hinge" limited="false" damping=".005" armature="0" />
+        <inertial mass="1.5" pos="0 0 0" diaginertia="0.0026531250000000005 0.0048000000000000004 0.0026531250000000005" />
+        <geom name="left_tire" type="cylinder" size="0.08 0.0225" quat=".70710678 .70710678 0 0" rgba=".045 .055 .065 1" friction="0.6 .005 .0001" condim="3" priority="2" />
+        <geom type="cylinder" size="0.0384 0.0235" quat=".70710678 .70710678 0 0" rgba=".55 .59 .59 1" contype="0" conaffinity="0" group="2" />
+      </body>
+      <geom name="left_shaft_envelope" type="cylinder" size="0.007 .025" pos="0 0.172 0" quat=".70710678 .70710678 0 0" rgba=".55 .59 .59 1" contype="0" conaffinity="0" group="2" density="0" />
+      <body name="right_wheel" pos="0 -0.2 0">
+        <joint name="right_wheel_joint" axis="0 1 0" type="hinge" limited="false" damping=".005" armature="0" />
+        <inertial mass="1.5" pos="0 0 0" diaginertia="0.0026531250000000005 0.0048000000000000004 0.0026531250000000005" />
+        <geom name="right_tire" type="cylinder" size="0.08 0.0225" quat=".70710678 .70710678 0 0" rgba=".045 .055 .065 1" friction="0.6 .005 .0001" condim="3" priority="2" />
+        <geom type="cylinder" size="0.0384 0.0235" quat=".70710678 .70710678 0 0" rgba=".55 .59 .59 1" contype="0" conaffinity="0" group="2" />
+      </body>
+      <geom name="right_shaft_envelope" type="cylinder" size="0.007 .025" pos="0 -0.172 0" quat=".70710678 .70710678 0 0" rgba=".55 .59 .59 1" contype="0" conaffinity="0" group="2" density="0" />
+      <site name="balance_imu" pos="0 0 .12" size=".005" />
+    </body>
+  </worldbody>
+  <contact>
+    <exclude body1="pelvis_link" body2="waist_yaw_link" />
+    <exclude body1="waist_yaw_link" body2="neck_yaw_link" />
+    <exclude body1="neck_yaw_link" body2="neck_pitch_link" />
+    <exclude body1="waist_yaw_link" body2="right_shoulder_pitch_link" />
+    <exclude body1="right_shoulder_pitch_link" body2="right_shoulder_roll_link" />
+    <exclude body1="right_shoulder_roll_link" body2="right_shoulder_yaw_link" />
+    <exclude body1="right_shoulder_yaw_link" body2="right_elbow_link" />
+    <exclude body1="right_elbow_link" body2="right_wrist_yaw_link" />
+    <exclude body1="waist_yaw_link" body2="left_shoulder_pitch_link" />
+    <exclude body1="left_shoulder_pitch_link" body2="left_shoulder_roll_link" />
+    <exclude body1="left_shoulder_roll_link" body2="left_shoulder_yaw_link" />
+    <exclude body1="left_shoulder_yaw_link" body2="left_elbow_link" />
+    <exclude body1="left_elbow_link" body2="left_wrist_yaw_link" />
+  </contact>
+  <sensor>
+    <gyro name="imu_ang_vel" site="imu_in_pelvis" />
+    <velocimeter name="imu_lin_vel" site="imu_in_pelvis" />
+    <accelerometer name="imu_lin_acc" site="imu_in_pelvis" />
+    <framequat name="imu_quat" objtype="site" objname="imu_in_pelvis" />
+    <subtreeangmom name="root_angmom" body="pelvis_link" />
+  </sensor>
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0.9 0.9 0.9" />
+    <rgba haze="0.15 0.25 0.35 1" />
+    <global azimuth="-140" elevation="-20" />
+  </visual>
+  <actuator>
+    <motor name="left_drive_torque" joint="left_wheel_joint" gear="1" ctrllimited="true" ctrlrange="-6 6" />
+    <motor name="right_drive_torque" joint="right_wheel_joint" gear="1" ctrllimited="true" ctrlrange="-6 6" />
+    <motor name="waist_yaw_joint_hold" joint="waist_yaw_joint" gear="1" ctrllimited="true" ctrlrange="-40 40" />
+    <motor name="right_shoulder_pitch_joint_hold" joint="right_shoulder_pitch_joint" gear="1" ctrllimited="true" ctrlrange="-30 30" />
+    <motor name="right_shoulder_roll_joint_hold" joint="right_shoulder_roll_joint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="right_shoulder_yaw_joint_hold" joint="right_shoulder_yaw_joint" gear="1" ctrllimited="true" ctrlrange="-20 20" />
+    <motor name="right_elbow_joint_hold" joint="right_elbow_joint" gear="1" ctrllimited="true" ctrlrange="-12 12" />
+    <motor name="right_wrist_yaw_joint_hold" joint="right_wrist_yaw_joint" gear="1" ctrllimited="true" ctrlrange="-12 12" />
+    <motor name="left_shoulder_pitch_joint_hold" joint="left_shoulder_pitch_joint" gear="1" ctrllimited="true" ctrlrange="-30 30" />
+    <motor name="left_shoulder_roll_joint_hold" joint="left_shoulder_roll_joint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="left_shoulder_yaw_joint_hold" joint="left_shoulder_yaw_joint" gear="1" ctrllimited="true" ctrlrange="-20 20" />
+    <motor name="left_elbow_joint_hold" joint="left_elbow_joint" gear="1" ctrllimited="true" ctrlrange="-12 12" />
+    <motor name="left_wrist_yaw_joint_hold" joint="left_wrist_yaw_joint" gear="1" ctrllimited="true" ctrlrange="-12 12" />
+  </actuator>
+  <sensor>
+    <gyro name="body_gyro" site="balance_imu" />
+    <accelerometer name="body_accel" site="balance_imu" />
+    <framequat name="body_orientation" objtype="site" objname="balance_imu" />
+  </sensor>
+</mujoco>

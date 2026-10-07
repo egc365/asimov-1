@@ -1,0 +1,920 @@
+[
+  {
+    "a": "PART-101_deck",
+    "b": "PART-102_column",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-103_interface_blank",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-105_left_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-105_right_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-104_right_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-101_deck",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-103_interface_blank",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-105_left_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-105_right_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-104_right_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-102_column",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-105_left_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-105_right_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-104_right_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-103_interface_blank",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-105_right_pelvis_cradle",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-104_right_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_left_pelvis_cradle",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-104_right_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-105_right_pelvis_cradle",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-106_right_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_right_axle_seat",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-106_right_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_lower",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-201_right_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_right_torque_clamp_cap",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-104_left_axle_seat",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_right_wheel_ENVELOPE",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-106_left_torque_clamp_lower",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-104_left_axle_seat",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-106_left_torque_clamp_cap",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_lower",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-201_left_wheel_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-106_left_torque_clamp_cap",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_left_wheel_ENVELOPE",
+    "b": "PART-202_battery_ENVELOPE",
+    "status": "clear_or_touching",
+    "intersection_mm3": 0.0
+  },
+  {
+    "a": "PART-201_left_wheel_ENVELOPE",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_left_wheel_ENVELOPE",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_left_wheel_ENVELOPE",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-201_left_wheel_ENVELOPE",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-202_battery_ENVELOPE",
+    "b": "PART-301_parking_-180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-202_battery_ENVELOPE",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-202_battery_ENVELOPE",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-202_battery_ENVELOPE",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_-180_-130",
+    "b": "PART-301_parking_-180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_-180_-130",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_-180_-130",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_-180_130",
+    "b": "PART-301_parking_180_-130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_-180_130",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  },
+  {
+    "a": "PART-301_parking_180_-130",
+    "b": "PART-301_parking_180_130",
+    "status": "not_run_in_balancing_configuration",
+    "intersection_mm3": null
+  }
+]

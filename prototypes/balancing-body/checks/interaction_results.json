@@ -1,0 +1,3114 @@
+{
+  "source_inertials_preserved": [
+    "pelvis_link",
+    "waist_yaw_link",
+    "neck_yaw_link",
+    "neck_pitch_link",
+    "right_shoulder_pitch_link",
+    "right_shoulder_roll_link",
+    "right_shoulder_yaw_link",
+    "right_elbow_link",
+    "right_wrist_yaw_link",
+    "left_shoulder_pitch_link",
+    "left_shoulder_roll_link",
+    "left_shoulder_yaw_link",
+    "left_elbow_link",
+    "left_wrist_yaw_link"
+  ],
+  "pose_count": 102,
+  "joint_count": 11,
+  "rest_pose_intersections": [],
+  "poses_with_intersections": 2,
+  "slow_reach_poses_with_intersections": 0,
+  "pair_matrix": [
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-102_column",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-103_interface_blank",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-104_left_axle_seat",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-104_right_axle_seat",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-105_left_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-101_deck",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-103_interface_blank",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-104_left_axle_seat",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-104_right_axle_seat",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-105_left_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-102_column",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-104_left_axle_seat",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-104_right_axle_seat",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-105_left_pelvis_cradle",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-103_interface_blank",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-104_right_axle_seat",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-105_left_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_left_axle_seat",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-105_left_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-104_right_axle_seat",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-105_right_pelvis_cradle",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_left_pelvis_cradle",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-106_left_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-105_right_pelvis_cradle",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-106_left_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_cap",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "new:PART-106_right_torque_clamp_cap",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_left_torque_clamp_lower",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "new:PART-106_right_torque_clamp_lower",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_cap",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "new:PART-201_left_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-106_right_torque_clamp_lower",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "new:PART-201_right_wheel_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_left_wheel_ENVELOPE",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "new:PART-202_battery_ENVELOPE",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-201_right_wheel_ENVELOPE",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:left_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "new:PART-202_battery_ENVELOPE",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:left_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:left_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:left_wrist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:pelvis_link",
+      "status": "tested_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": [
+        "left_shoulder_yaw_joint=1.5708"
+      ]
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_elbow_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:left_shoulder_roll_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_pitch_link",
+      "b": "source:waist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:left_shoulder_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_roll_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:left_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_shoulder_yaw_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:neck_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:neck_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:pelvis_link",
+      "status": "tested_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": [
+        "left_shoulder_yaw_joint=1.5708"
+      ]
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:left_wrist_yaw_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:neck_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_pitch_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:pelvis_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:neck_yaw_link",
+      "b": "source:waist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:right_elbow_link",
+      "status": "tested_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": [
+        "right_shoulder_yaw_joint=-1.5708"
+      ]
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": [
+        "right_shoulder_yaw_joint=-1.5708"
+      ]
+    },
+    {
+      "a": "source:pelvis_link",
+      "b": "source:waist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_elbow_link",
+      "b": "source:right_shoulder_pitch_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_elbow_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_elbow_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_elbow_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_elbow_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_pitch_link",
+      "b": "source:right_shoulder_roll_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_pitch_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_pitch_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_pitch_link",
+      "b": "source:waist_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_roll_link",
+      "b": "source:right_shoulder_yaw_link",
+      "status": "excluded_mating_interface",
+      "poses_tested": 0,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_roll_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_roll_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_yaw_link",
+      "b": "source:right_wrist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_shoulder_yaw_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    },
+    {
+      "a": "source:right_wrist_yaw_link",
+      "b": "source:waist_yaw_link",
+      "status": "tested_no_surface_intersection",
+      "poses_tested": 102,
+      "hit_poses": []
+    }
+  ],
+  "pose_results": [
+    {
+      "pose": "source_rest",
+      "intersections": []
+    },
+    {
+      "pose": "waist_yaw_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "waist_yaw_joint=-0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "waist_yaw_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "waist_yaw_joint=0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "waist_yaw_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_pitch_joint=-0.8727",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_pitch_joint=0.1309",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_pitch_joint=1.1345",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_pitch_joint=2.138",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_pitch_joint=3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_roll_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_roll_joint=0.3927",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_roll_joint=0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_roll_joint=1.1781",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_roll_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_yaw_joint=-1.5708",
+      "intersections": [
+        [
+          "source:pelvis_link",
+          "source:right_elbow_link"
+        ],
+        [
+          "source:pelvis_link",
+          "source:right_wrist_yaw_link"
+        ]
+      ]
+    },
+    {
+      "pose": "right_shoulder_yaw_joint=-0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_yaw_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_yaw_joint=0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "right_shoulder_yaw_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_elbow_joint=-2.0944",
+      "intersections": []
+    },
+    {
+      "pose": "right_elbow_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_elbow_joint=-1.0472",
+      "intersections": []
+    },
+    {
+      "pose": "right_elbow_joint=-0.5236",
+      "intersections": []
+    },
+    {
+      "pose": "right_elbow_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "right_wrist_yaw_joint=-3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "right_wrist_yaw_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_wrist_yaw_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "right_wrist_yaw_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "right_wrist_yaw_joint=3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_pitch_joint=-3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_pitch_joint=-2.138",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_pitch_joint=-1.1345",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_pitch_joint=-0.1309",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_pitch_joint=0.8727",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_roll_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_roll_joint=-1.1781",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_roll_joint=-0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_roll_joint=-0.3927",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_roll_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_yaw_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_yaw_joint=-0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_yaw_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_yaw_joint=0.7854",
+      "intersections": []
+    },
+    {
+      "pose": "left_shoulder_yaw_joint=1.5708",
+      "intersections": [
+        [
+          "source:left_elbow_link",
+          "source:pelvis_link"
+        ],
+        [
+          "source:left_wrist_yaw_link",
+          "source:pelvis_link"
+        ]
+      ]
+    },
+    {
+      "pose": "left_elbow_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "left_elbow_joint=0.5236",
+      "intersections": []
+    },
+    {
+      "pose": "left_elbow_joint=1.0472",
+      "intersections": []
+    },
+    {
+      "pose": "left_elbow_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "left_elbow_joint=2.0944",
+      "intersections": []
+    },
+    {
+      "pose": "left_wrist_yaw_joint=-3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "left_wrist_yaw_joint=-1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "left_wrist_yaw_joint=0.0",
+      "intersections": []
+    },
+    {
+      "pose": "left_wrist_yaw_joint=1.5708",
+      "intersections": []
+    },
+    {
+      "pose": "left_wrist_yaw_joint=3.1416",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_0",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_1",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_2",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_3",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_4",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_5",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_6",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_7",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_8",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_9",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_10",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_11",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_12",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_13",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_14",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_15",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_16",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_17",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_18",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_19",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_20",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_21",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_22",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_23",
+      "intersections": []
+    },
+    {
+      "pose": "combined_random_24",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_0",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_1",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_2",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_3",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_4",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_5",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_6",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_7",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_8",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_9",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_10",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_11",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_12",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_13",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_14",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_15",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_16",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_17",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_18",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_19",
+      "intersections": []
+    },
+    {
+      "pose": "tested_slow_reach_20",
+      "intersections": []
+    }
+  ],
+  "limitations": [
+    "source meshes may be open: triangle intersection does not prove positive volume clearance",
+    "five evenly spaced points per original joint plus 25 deterministic combinations and 21 slow-reach samples; not continuous swept-volume certification",
+    "hands are mass allowances only, omitted from hardware collision validation",
+    "parking struts tested separately as CAD; stowed linkage and all wiring routes unresolved",
+    "new mating contact surfaces have independently verified zero BRep intersection volume"
+  ]
+}

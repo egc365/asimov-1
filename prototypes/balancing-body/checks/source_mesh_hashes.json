@@ -1,0 +1,75 @@
+{
+  "revision": "35ae7b3581ce36762bfddb00b8fc5e7c957ee7fa",
+  "retained_source_assets": [
+    {
+      "path": "sim-model/assets/meshes/IMU_ORIGIN.STL",
+      "bytes": 3030084,
+      "sha256": "4103db420f4b511026f9967711366852243e80904909ff491300117e796194de"
+    },
+    {
+      "path": "sim-model/assets/meshes/WAIST_YAW.STL",
+      "bytes": 8739984,
+      "sha256": "24d5000c0a90bc5b053c6734ce517d8d23e9957d3ee59994e1b65d3a1db52a7d"
+    },
+    {
+      "path": "sim-model/assets/meshes/NECK_YAW.STL",
+      "bytes": 346484,
+      "sha256": "47b311a7138ebae9326216e5b79d85cf2750f0283a133188eaf5b9a14670a7c7"
+    },
+    {
+      "path": "sim-model/assets/meshes/NECK_PITCH.STL",
+      "bytes": 837984,
+      "sha256": "6467104a3890738a7dd4f946c1533d0f136d75ad6566e9627f57f64cda874798"
+    },
+    {
+      "path": "sim-model/assets/meshes/RIGHT_SHOULDER_PITCH.STL",
+      "bytes": 715784,
+      "sha256": "325c6cf9b79c09f53ec05cf5fd7c89e2d430d85f4fa2fe2ae5827879437d9531"
+    },
+    {
+      "path": "sim-model/assets/meshes/RIGHT_SHOULDER_ROLL.STL",
+      "bytes": 2654584,
+      "sha256": "7ea6c316d2292a5e929f91963fde0a72e378343758575c7652a40cbf8d3b51b3"
+    },
+    {
+      "path": "sim-model/assets/meshes/RIGHT_SHOULDER_YAW.STL",
+      "bytes": 2499884,
+      "sha256": "3bf54ab880e06c09f841d640374e9a91a99d3146cd2c5df98a79487c0c357f25"
+    },
+    {
+      "path": "sim-model/assets/meshes/RIGHT_ELBOW.STL",
+      "bytes": 622584,
+      "sha256": "aa3df244f5dbe2404911005d288f658814709f0ff64b8c03d0a5af3079f5e6c6"
+    },
+    {
+      "path": "sim-model/assets/meshes/RIGHT_WRIST_YAW.STL",
+      "bytes": 160384,
+      "sha256": "f71c5a4e4b762bd141477ac6b46af9598300630ce923f67f6c02bf98d4a67586"
+    },
+    {
+      "path": "sim-model/assets/meshes/LEFT_SHOULDER_PITCH.STL",
+      "bytes": 714084,
+      "sha256": "5e7c93c3f5f7e60f7cc139da16237507915db84fa3a6d67bc6b07158b77e7e23"
+    },
+    {
+      "path": "sim-model/assets/meshes/LEFT_SHOULDER_ROLL.STL",
+      "bytes": 2651384,
+      "sha256": "539c9175e7b60d0df3ffd6d9620825244ae684967a63aec05d3da7aac7879237"
+    },
+    {
+      "path": "sim-model/assets/meshes/LEFT_SHOULDER_YAW.STL",
+      "bytes": 685184,
+      "sha256": "82df3e536649a1d4bb218c157de154de4a94736ae195dc974e4ab97b8e86caa5"
+    },
+    {
+      "path": "sim-model/assets/meshes/LEFT_ELBOW.STL",
+      "bytes": 621484,
+      "sha256": "fc697105abe95a3a3b23356527f7180113055d6168f40e66472c834eab485375"
+    },
+    {
+      "path": "sim-model/assets/meshes/LEFT_WRIST_YAW.STL",
+      "bytes": 160484,
+      "sha256": "966dd01e04b12fb5f5d46720d8fd82a094f3f8a8404f643c9b9c5b0c01018c38"
+    }
+  ]
+}

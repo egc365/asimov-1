@@ -1,0 +1,165 @@
+{
+  "parts": [
+    {
+      "id": "PART-101_deck",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 1.9984014443252818e-15,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-102_column",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 0.0,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-103_interface_blank",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 0.0,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-105_left_pelvis_cradle",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 7.460698725481052e-14,
+      "bbox_max_error_mm": 8.995471034722868e-12
+    },
+    {
+      "id": "PART-105_right_pelvis_cradle",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 7.460698725481052e-14,
+      "bbox_max_error_mm": 8.995471034722868e-12
+    },
+    {
+      "id": "PART-104_right_axle_seat",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 2.220446049250313e-16,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-106_right_torque_clamp_lower",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 2.220446049250313e-16,
+      "bbox_max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "id": "PART-106_right_torque_clamp_cap",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 1.7763568394002505e-15,
+      "bbox_max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "id": "PART-201_right_wheel_ENVELOPE",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 0.0,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-104_left_axle_seat",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 4.440892098500626e-16,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-106_left_torque_clamp_lower",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 2.220446049250313e-16,
+      "bbox_max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "id": "PART-106_left_torque_clamp_cap",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 1.7763568394002505e-15,
+      "bbox_max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "id": "PART-201_left_wheel_ENVELOPE",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 0.0,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-202_battery_ENVELOPE",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 0.0,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-301_parking_-180_-130",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 3.241851231905457e-14,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-301_parking_-180_130",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 3.219646771412954e-14,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-301_parking_180_-130",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 5.995204332975845e-14,
+      "bbox_max_error_mm": 0.0
+    },
+    {
+      "id": "PART-301_parking_180_130",
+      "valid": true,
+      "solid_count": 1,
+      "volume_relative_error": 5.984102102729594e-14,
+      "bbox_max_error_mm": 0.0
+    }
+  ],
+  "assembly_solids": 18,
+  "assembly_valid": true,
+  "critical_dimensions": {
+    "deck_bbox_mm": [
+      240.0,
+      320.0,
+      8.0
+    ],
+    "deck_expected_mm": [
+      240,
+      320,
+      8
+    ],
+    "column_expected_mm": [
+      60,
+      80,
+      118
+    ],
+    "column_actual_mm": [
+      60.0,
+      80.0,
+      118.0
+    ],
+    "wheel_center_distance_mm": 400.0,
+    "shaft_hole_radii_mm": [
+      2.75,
+      7.075
+    ],
+    "pelvis_underside_to_plate_mm": 2.000003798007981,
+    "wheel_to_axle_seat_gap_mm": 17.5,
+    "frame_ground_clearance_mm": 34.0,
+    "source_cradle_PCD_mm": 100.2,
+    "source_cradle_hole_mm": 4.3,
+    "source_cradle_spacer_gap_mm": 1
+  }
+}

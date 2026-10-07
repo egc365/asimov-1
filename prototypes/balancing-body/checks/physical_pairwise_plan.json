@@ -1,0 +1,154 @@
+{
+  "factor_levels": {
+    "wheel_torque_Nm_each": [
+      3,
+      6
+    ],
+    "local_delay_ms": [
+      5,
+      20,
+      40
+    ],
+    "measured_floor_friction": [
+      0.2,
+      0.6
+    ],
+    "upper_pose": [
+      "rest",
+      "slow_reach"
+    ],
+    "power": [
+      "on",
+      "cut_on_catch_rig"
+    ]
+  },
+  "full_factorial_size": 48,
+  "excluded_pairs": [],
+  "required_pairs": 48,
+  "covered_pairs": 48,
+  "missing_pairs": [],
+  "duplicate_rows": 0,
+  "plan_rows": [
+    {
+      "test_id": "TEST-PHY-001",
+      "factors": {
+        "wheel_torque_Nm_each": 3,
+        "local_delay_ms": 5,
+        "measured_floor_friction": 0.2,
+        "upper_pose": "rest",
+        "power": "on"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-002",
+      "factors": {
+        "wheel_torque_Nm_each": 3,
+        "local_delay_ms": 20,
+        "measured_floor_friction": 0.6,
+        "upper_pose": "slow_reach",
+        "power": "cut_on_catch_rig"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-003",
+      "factors": {
+        "wheel_torque_Nm_each": 6,
+        "local_delay_ms": 40,
+        "measured_floor_friction": 0.2,
+        "upper_pose": "rest",
+        "power": "cut_on_catch_rig"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-004",
+      "factors": {
+        "wheel_torque_Nm_each": 6,
+        "local_delay_ms": 5,
+        "measured_floor_friction": 0.6,
+        "upper_pose": "slow_reach",
+        "power": "on"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-005",
+      "factors": {
+        "wheel_torque_Nm_each": 3,
+        "local_delay_ms": 40,
+        "measured_floor_friction": 0.2,
+        "upper_pose": "slow_reach",
+        "power": "on"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-006",
+      "factors": {
+        "wheel_torque_Nm_each": 6,
+        "local_delay_ms": 20,
+        "measured_floor_friction": 0.2,
+        "upper_pose": "rest",
+        "power": "on"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-007",
+      "factors": {
+        "wheel_torque_Nm_each": 3,
+        "local_delay_ms": 5,
+        "measured_floor_friction": 0.6,
+        "upper_pose": "rest",
+        "power": "cut_on_catch_rig"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    },
+    {
+      "test_id": "TEST-PHY-008",
+      "factors": {
+        "wheel_torque_Nm_each": 3,
+        "local_delay_ms": 40,
+        "measured_floor_friction": 0.6,
+        "upper_pose": "rest",
+        "power": "on"
+      },
+      "status": "not run",
+      "evidence_type": "planned physical test",
+      "mechanism": "coupled traction, latency, arm COM and power-loss instability",
+      "acceptance": "guarded specimen; on-power pitch within 1 deg and rate below .02 rad/s at 8 s, no structural movement; power-cut load caught without contact outside rig",
+      "prerequisites": "identified motor, verified mount and voltage ratings, load-rated catch rig, logged local IMU and encoder timestamps"
+    }
+  ],
+  "limits": "Declared-factor pair coverage only; no physical rows run, no reliability or higher-order completeness claim. Power-cut tests require independent mechanical catch."
+}

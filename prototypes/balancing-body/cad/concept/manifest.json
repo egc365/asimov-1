@@ -1,0 +1,488 @@
+[
+  {
+    "id": "PART-101_deck",
+    "material": "aluminum",
+    "mass_kg": 1.6547374257229306,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 612865.713230715,
+    "com_mm": [
+      8.541922627403086e-15,
+      3.1460868606835545e-16,
+      109.99999999999996
+    ],
+    "bbox_mm": [
+      240.0,
+      320.0,
+      8.0
+    ],
+    "bbox_bounds_mm": [
+      -120.0,
+      -160.0,
+      106.0,
+      120.0,
+      160.0,
+      114.0
+    ]
+  },
+  {
+    "id": "PART-102_column",
+    "material": "aluminum",
+    "mass_kg": 0.25615439999999995,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 94871.99999999997,
+    "com_mm": [
+      -2.410459048822828e-15,
+      -9.57456186646969e-16,
+      173.0
+    ],
+    "bbox_mm": [
+      60.0,
+      80.0,
+      118.0
+    ],
+    "bbox_bounds_mm": [
+      -30.0,
+      -40.0,
+      114.0,
+      30.0,
+      40.0,
+      232.0
+    ]
+  },
+  {
+    "id": "PART-103_interface_blank",
+    "material": "aluminum",
+    "mass_kg": 0.4125030660289559,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 152778.91334405774,
+    "com_mm": [
+      7.500795097640097e-16,
+      -1.1906023964508092e-16,
+      234.99999999999997
+    ],
+    "bbox_mm": [
+      160.0,
+      160.0,
+      6.0
+    ],
+    "bbox_bounds_mm": [
+      -80.0,
+      -80.0,
+      232.0,
+      80.0,
+      80.0,
+      238.0
+    ]
+  },
+  {
+    "id": "PART-105_left_pelvis_cradle",
+    "material": "aluminum",
+    "mass_kg": 0.30075459631927715,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 111390.59122936189,
+    "com_mm": [
+      3.3525380107913336,
+      72.50000000000004,
+      296.47079707844864
+    ],
+    "bbox_mm": [
+      120.0,
+      8.0,
+      117.0
+    ],
+    "bbox_bounds_mm": [
+      -56.64746198920867,
+      68.5,
+      238.0,
+      63.35253801079133,
+      76.5,
+      355.0
+    ]
+  },
+  {
+    "id": "PART-105_right_pelvis_cradle",
+    "material": "aluminum",
+    "mass_kg": 0.30075459631927715,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 111390.59122936189,
+    "com_mm": [
+      3.3525380107913336,
+      -72.50000000000004,
+      296.47079707844864
+    ],
+    "bbox_mm": [
+      120.0,
+      8.0,
+      117.0
+    ],
+    "bbox_bounds_mm": [
+      -56.64746198920867,
+      -76.5,
+      238.0,
+      63.35253801079133,
+      -68.5,
+      355.0
+    ]
+  },
+  {
+    "id": "PART-104_right_axle_seat",
+    "material": "aluminum",
+    "mass_kg": 0.3238969469906218,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 119961.83221874882,
+    "com_mm": [
+      2.373020121398539e-15,
+      -156.00000000000003,
+      30.450866393762688
+    ],
+    "bbox_mm": [
+      100.0,
+      8.0,
+      152.0
+    ],
+    "bbox_bounds_mm": [
+      -50.0,
+      -160.0,
+      -46.0,
+      50.0,
+      -152.0,
+      106.0
+    ]
+  },
+  {
+    "id": "PART-106_right_torque_clamp_lower",
+    "material": "aluminum",
+    "mass_kg": 0.06762388843578643,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 25045.884605846826,
+    "com_mm": [
+      -1.5977781383160615e-15,
+      -166.99999999999986,
+      -15.893032956970346
+    ],
+    "bbox_mm": [
+      70.0,
+      14.0,
+      29.250000000000004
+    ],
+    "bbox_bounds_mm": [
+      -35.0,
+      -174.0,
+      -30.0,
+      35.0,
+      -160.0,
+      -0.7499999999999976
+    ]
+  },
+  {
+    "id": "PART-106_right_torque_clamp_cap",
+    "material": "aluminum",
+    "mass_kg": 0.06942001549566003,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 25711.116850244453,
+    "com_mm": [
+      -2.1931630523232377e-15,
+      -167.00000000000006,
+      15.818180556808535
+    ],
+    "bbox_mm": [
+      70.0,
+      14.0,
+      29.250000000000004
+    ],
+    "bbox_bounds_mm": [
+      -35.0,
+      -174.0,
+      0.7499999999999976,
+      35.0,
+      -160.0,
+      30.0
+    ]
+  },
+  {
+    "id": "PART-201_right_wheel_ENVELOPE",
+    "material": "rubber",
+    "mass_kg": 1.5,
+    "mass_evidence": "provisional allowance",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 904778.6842338606,
+    "com_mm": [
+      1.9557411360412183e-14,
+      -200.0,
+      1.192428871692957e-15
+    ],
+    "bbox_mm": [
+      160.0,
+      45.0,
+      160.0
+    ],
+    "bbox_bounds_mm": [
+      -80.0,
+      -222.5,
+      -80.0,
+      80.0,
+      -177.5,
+      80.0
+    ]
+  },
+  {
+    "id": "PART-104_left_axle_seat",
+    "material": "aluminum",
+    "mass_kg": 0.3238969469906218,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 119961.83221874882,
+    "com_mm": [
+      2.373020121398539e-15,
+      156.00000000000003,
+      30.450866393762688
+    ],
+    "bbox_mm": [
+      100.0,
+      8.0,
+      152.0
+    ],
+    "bbox_bounds_mm": [
+      -50.0,
+      152.0,
+      -46.0,
+      50.0,
+      160.0,
+      106.0
+    ]
+  },
+  {
+    "id": "PART-106_left_torque_clamp_lower",
+    "material": "aluminum",
+    "mass_kg": 0.06762388843578643,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 25045.884605846826,
+    "com_mm": [
+      -1.5977781383160615e-15,
+      166.99999999999986,
+      -15.893032956970346
+    ],
+    "bbox_mm": [
+      70.0,
+      14.0,
+      29.250000000000004
+    ],
+    "bbox_bounds_mm": [
+      -35.0,
+      160.0,
+      -30.0,
+      35.0,
+      174.0,
+      -0.7499999999999976
+    ]
+  },
+  {
+    "id": "PART-106_left_torque_clamp_cap",
+    "material": "aluminum",
+    "mass_kg": 0.06942001549566003,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 25711.116850244453,
+    "com_mm": [
+      -2.1931630523232377e-15,
+      166.99999999999997,
+      15.818180556808535
+    ],
+    "bbox_mm": [
+      70.0,
+      14.0,
+      29.250000000000004
+    ],
+    "bbox_bounds_mm": [
+      -35.0,
+      160.0,
+      0.7499999999999976,
+      35.0,
+      174.0,
+      30.0
+    ]
+  },
+  {
+    "id": "PART-201_left_wheel_ENVELOPE",
+    "material": "rubber",
+    "mass_kg": 1.5,
+    "mass_evidence": "provisional allowance",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 904778.6842338606,
+    "com_mm": [
+      1.9557411360412183e-14,
+      200.0,
+      1.192428871692957e-15
+    ],
+    "bbox_mm": [
+      160.0,
+      45.0,
+      160.0
+    ],
+    "bbox_bounds_mm": [
+      -80.0,
+      177.5,
+      -80.0,
+      80.0,
+      222.5,
+      80.0
+    ]
+  },
+  {
+    "id": "PART-202_battery_ENVELOPE",
+    "material": "battery",
+    "mass_kg": 2.3,
+    "mass_evidence": "provisional allowance",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1056000.0,
+    "com_mm": [
+      1.1842378929335003e-16,
+      -3.789561257387201e-16,
+      50.0
+    ],
+    "bbox_mm": [
+      160.0,
+      110.0,
+      60.0
+    ],
+    "bbox_bounds_mm": [
+      -80.0,
+      -55.0,
+      20.0,
+      80.0,
+      55.0,
+      80.0
+    ]
+  },
+  {
+    "id": "PART-301_parking_-180_-130",
+    "material": "aluminum",
+    "mass_kg": 0.14378918859013098,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 53255.255033381836,
+    "com_mm": [
+      -161.97360993955908,
+      -130.0,
+      34.79910915311985
+    ],
+    "bbox_mm": [
+      108.0,
+      36.0,
+      187.0
+    ],
+    "bbox_bounds_mm": [
+      -198.0,
+      -148.0,
+      -80.0,
+      -90.0,
+      -112.0,
+      107.0
+    ]
+  },
+  {
+    "id": "PART-301_parking_-180_130",
+    "material": "aluminum",
+    "mass_kg": 0.14378918859013098,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 53255.255033381836,
+    "com_mm": [
+      -161.97360993955908,
+      130.0,
+      34.79910915311985
+    ],
+    "bbox_mm": [
+      108.0,
+      36.0,
+      187.0
+    ],
+    "bbox_bounds_mm": [
+      -198.0,
+      112.0,
+      -80.0,
+      -90.0,
+      148.0,
+      107.0
+    ]
+  },
+  {
+    "id": "PART-301_parking_180_-130",
+    "material": "aluminum",
+    "mass_kg": 0.14378918859013098,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 53255.255033381836,
+    "com_mm": [
+      161.9736099395591,
+      -130.0,
+      34.79910915311984
+    ],
+    "bbox_mm": [
+      108.0,
+      36.0,
+      187.0
+    ],
+    "bbox_bounds_mm": [
+      90.0,
+      -148.0,
+      -80.0,
+      198.0,
+      -112.0,
+      107.0
+    ]
+  },
+  {
+    "id": "PART-301_parking_180_130",
+    "material": "aluminum",
+    "mass_kg": 0.14378918859013096,
+    "mass_evidence": "CAD volume x assumed aluminum density",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 53255.25503338183,
+    "com_mm": [
+      161.9736099395591,
+      130.0,
+      34.79910915311985
+    ],
+    "bbox_mm": [
+      108.0,
+      36.0,
+      187.0
+    ],
+    "bbox_bounds_mm": [
+      90.0,
+      112.0,
+      -80.0,
+      198.0,
+      148.0,
+      107.0
+    ]
+  }
+]
